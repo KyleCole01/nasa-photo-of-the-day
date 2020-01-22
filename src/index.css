@@ -11,3 +11,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.title{
+  margin-top:5%;
+  text-decoration: underline;
+}
+.image-container{
+  width:60%;
+  padding:1%;
+  margin:0 auto;
+  background:lightcyan;
+  border-radius: 5%;
+  box-shadow: 5px 10px blue;
+  
+}
+.nasaImg{
+  width:70%;
+  height:70vh;
+  margin:5% auto;
+}
+.explain{
+  width:75%;
+  margin:0 auto;
+  margin-bottom:5%;
+}
+body{
+  padding:2%;
+  background:lightblue;
+}
+.calendar{
+  margin:0 auto;
+}
+.headline{
+  color:blue;
+  text-shadow: 3px 2px antiquewhite;
+  text-align: center;
+  text-decoration: underline;
+
+}
+
