@@ -17,7 +17,7 @@ code {
   text-decoration: underline;
 }
 .image-container{
-  width:80%;
+  width:60%;
   padding:1%;
   margin:0 auto;
   background:lightcyan;
@@ -26,8 +26,8 @@ code {
   
 }
 .nasaImg{
-  width:50%;
-  height:50vh;
+  width:70%;
+  height:70vh;
   margin:5% auto;
 }
 .explain{
@@ -39,3 +39,14 @@ body{
   padding:2%;
   background:lightblue;
 }
+.calendar{
+  margin:0 auto;
+}
+.headline{
+  color:blue;
+  text-shadow: 3px 2px antiquewhite;
+  text-align: center;
+  text-decoration: underline;
+
+}
+

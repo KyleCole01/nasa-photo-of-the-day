@@ -1,9 +1,21 @@
 import React from "react";
 
 const MediaType = (props) =>{
+    console.log("media type is",props.mediaType);
+    if(props.type === "video"){
     return <iframe  className="nasaImg" src = {props.url} allow="autoplay" allowFullScreen title={props.title} alt="nasa image" ></iframe>
+}
+
+    else{
+        return (
+        
+        <a href={props.url}target="_blank">
+        <img class="nasaImg" src={props.url} alt={props.title}></img>
+        </a>
+        
+        )
+    }
 }
 export default MediaType;
 
 
-// <iframe width="1588" height="759" src="https://www.youtube.com/embed/hgzGET6owYk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
